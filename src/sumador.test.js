@@ -33,6 +33,10 @@ describe("Calculadora de Cadenas", () => {
     expect(calculadoraCadenas("2,1001")).toEqual(2);
   });
 
+  it("deberia soportar delimitadores de longitud multiple", () => {
+    expect(calculadoraCadenas("//[***] 1***2***3")).toEqual(6);
+  });
+
 });
 
 

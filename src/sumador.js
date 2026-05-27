@@ -6,12 +6,16 @@ function sumarArreglo(numeros) {
   }, 0);
 }
 
+function escaparRegExp(string) {
+  return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+} 
+
 function obtenerSeparadores(cadena) {
   let expresion = ",|-"; 
   if (cadena.startsWith("//")) {
     const finDelimitador = cadena.indexOf("]");
-    const delimitador = cadena.substring(4, finDelimitador);
-    expresion += "|" + delimitador; 
+    const delimitador = cadena.substring(3, finDelimitador); 
+    expresion += "|" + escaparRegExp(delimitador);
   }
   return new RegExp(expresion);
 }
@@ -23,6 +27,7 @@ function obtenerTextoNumeros(cadena) {
   }
   return cadena;
 }
+
 
 export function calculadoraCadenas(cadena) {
   if (cadena === "") return 0;

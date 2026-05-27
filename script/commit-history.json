@@ -133,12 +133,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "74f5c7f5abe886f67cddb5d44d016086a6b5fbfe",
     "author": "CamiloPadillaVillazon",
     "commit": {
       "date": "2026-05-27T02:10:39.000Z",
       "message": "ignorar numeros mayores a mil",
-      "url": "https://github.com/CamiloPadillaVillazon/-StringCalculator/commit/HEAD"
+      "url": "https://github.com/CamiloPadillaVillazon/-StringCalculator/commit/74f5c7f5abe886f67cddb5d44d016086a6b5fbfe"
     },
     "stats": {
       "total": 15,
@@ -148,6 +148,25 @@
     },
     "coverage": 100,
     "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "CamiloPadillaVillazon",
+    "commit": {
+      "date": "2026-05-27T02:16:38.000Z",
+      "message": "soportar delimitadores de longitud multiple",
+      "url": "https://github.com/CamiloPadillaVillazon/-StringCalculator/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 11,
+      "deletions": 2,
+      "date": "2026-05-27"
+    },
+    "coverage": 100,
+    "test_count": 9,
     "failed_tests": 0,
     "conclusion": "success"
   }
