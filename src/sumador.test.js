@@ -24,6 +24,11 @@ describe("Calculadora de Cadenas", () => {
   it("deberia aceptar un delimitador personalizado simple", () => {
     expect(calculadoraCadenas("//[;] 6;7;4")).toEqual(17);
   });
+
+  it("deberia mezclar el delimitador personalizado con comas y guiones", () => {
+    expect(calculadoraCadenas("//[;] 6,3-2;1")).toEqual(12);
+  });
+  
 });
 
 

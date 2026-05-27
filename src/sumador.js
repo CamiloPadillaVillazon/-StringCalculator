@@ -4,11 +4,13 @@ function sumarArreglo(numeros) {
 }
 
 function obtenerSeparadores(cadena) {
+  let expresion = ",|-"; // Mantenemos los de por defecto
   if (cadena.startsWith("//")) {
     const finDelimitador = cadena.indexOf("]");
-    return new RegExp(cadena.substring(4, finDelimitador));
+    const delimitador = cadena.substring(4, finDelimitador);
+    expresion += "|" + delimitador; // Agregamos el personalizado
   }
-  return /,|-/;
+  return new RegExp(expresion);
 }
 
 function obtenerTextoNumeros(cadena) {
@@ -24,8 +26,8 @@ export function calculadoraCadenas(cadena) {
 
   const separadores = obtenerSeparadores(cadena);
   const textoLimpio = obtenerTextoNumeros(cadena);
-  
   const numeros = textoLimpio.split(separadores);
+
 
   return sumarArreglo(numeros);
 }

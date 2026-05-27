@@ -198,9 +198,31 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b6b809f2b86a1d4e56c656174abcd5b24b958aa4",
     "commitName": "Delimitador personalizado",
     "commitTimestamp": 1779847412599,
     "testId": 5
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 6,
+    "numTotalTests": 7,
+    "timestamp": 1779847502484,
+    "success": false,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1779847562083,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "mezclar el delimitador personalizado con comas y guiones",
+    "commitTimestamp": 1779847597965,
+    "testId": 6
   }
 ]
