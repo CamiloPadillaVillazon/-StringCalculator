@@ -12,18 +12,25 @@ function escaparRegExp(string) {
 
 function obtenerSeparadores(cadena) {
   let expresion = ",|-"; 
+  
   if (cadena.startsWith("//")) {
-    const finDelimitador = cadena.indexOf("]");
-    const delimitador = cadena.substring(3, finDelimitador); 
-    expresion += "|" + escaparRegExp(delimitador);
+    const ultimoCierre = cadena.lastIndexOf("]");
+    const bloqueDelimitadores = cadena.substring(2, ultimoCierre + 1); // Extrae todo el bloque "[*][%]"
+    
+    const regexCorchetes = /\[(.*?)\]/g;
+    let match;
+    while ((match = regexCorchetes.exec(bloqueDelimitadores)) !== null) {
+      expresion += "|" + escaparRegExp(match[1]); // match[1] es el texto exacto sin corchetes
+    }
   }
+  
   return new RegExp(expresion);
 }
 
 function obtenerTextoNumeros(cadena) {
   if (cadena.startsWith("//")) {
-    const finDelimitador = cadena.indexOf("]");
-    return cadena.substring(finDelimitador + 2);
+    const ultimoCierre = cadena.lastIndexOf("]");
+    return cadena.substring(ultimoCierre + 2); 
   }
   return cadena;
 }

@@ -152,12 +152,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "185c3bc8dda3199a9f57767578edf80c1c30e3c8",
     "author": "CamiloPadillaVillazon",
     "commit": {
       "date": "2026-05-27T02:16:38.000Z",
       "message": "soportar delimitadores de longitud multiple",
-      "url": "https://github.com/CamiloPadillaVillazon/-StringCalculator/commit/HEAD"
+      "url": "https://github.com/CamiloPadillaVillazon/-StringCalculator/commit/185c3bc8dda3199a9f57767578edf80c1c30e3c8"
     },
     "stats": {
       "total": 13,
@@ -167,6 +167,25 @@
     },
     "coverage": 100,
     "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "CamiloPadillaVillazon",
+    "commit": {
+      "date": "2026-05-27T02:21:23.000Z",
+      "message": "varios delimitadores personalizados",
+      "url": "https://github.com/CamiloPadillaVillazon/-StringCalculator/commit/HEAD"
+    },
+    "stats": {
+      "total": 21,
+      "additions": 16,
+      "deletions": 5,
+      "date": "2026-05-27"
+    },
+    "coverage": 100,
+    "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
   }

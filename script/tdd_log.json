@@ -288,9 +288,39 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "185c3bc8dda3199a9f57767578edf80c1c30e3c8",
     "commitName": "soportar delimitadores de longitud multiple",
     "commitTimestamp": 1779848200412,
     "testId": 8
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 9,
+    "numTotalTests": 10,
+    "timestamp": 1779848382466,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 1,
+    "numTotalTests": 10,
+    "timestamp": 1779848404082,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 0,
+    "numTotalTests": 10,
+    "timestamp": 1779848444859,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "varios delimitadores personalizados",
+    "commitTimestamp": 1779848485143,
+    "testId": 9
   }
 ]
