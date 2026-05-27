@@ -38,12 +38,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "76876e569ba34a6337401595a9e5398a27d3a8b8",
     "author": "CamiloPadillaVillazon",
     "commit": {
       "date": "2026-05-27T01:47:38.000Z",
       "message": "Retorna suma de 2 numeros separados por coma",
-      "url": "https://github.com/CamiloPadillaVillazon/-StringCalculator/commit/HEAD"
+      "url": "https://github.com/CamiloPadillaVillazon/-StringCalculator/commit/76876e569ba34a6337401595a9e5398a27d3a8b8"
     },
     "stats": {
       "total": 12,
@@ -53,6 +53,25 @@
     },
     "coverage": 100,
     "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "CamiloPadillaVillazon",
+    "commit": {
+      "date": "2026-05-27T01:51:52.000Z",
+      "message": "Retorna suma de varios numeros separados por coma",
+      "url": "https://github.com/CamiloPadillaVillazon/-StringCalculator/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 6,
+      "deletions": 5,
+      "date": "2026-05-27"
+    },
+    "coverage": 100,
+    "test_count": 4,
     "failed_tests": 0,
     "conclusion": "success"
   }
