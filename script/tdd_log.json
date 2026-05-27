@@ -138,9 +138,39 @@
     "testId": 3
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b8773f7a136433c4fd15c2805da660ad80683e58",
     "commitName": "Retorna suma de varios numeros separados por coma",
     "commitTimestamp": 1779846714127,
     "testId": 3
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 1,
+    "numTotalTests": 5,
+    "timestamp": 1779846886797,
+    "success": false,
+    "testId": 4
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1779846976259,
+    "success": true,
+    "testId": 4
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1779847003916,
+    "success": true,
+    "testId": 4
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "guion como separador",
+    "commitTimestamp": 1779847119844,
+    "testId": 4
   }
 ]

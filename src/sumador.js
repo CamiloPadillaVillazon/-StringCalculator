@@ -11,6 +11,8 @@ function sumarArreglo(numeros) {
 export function calculadoraCadenas(cadena) {
   if (cadena === "") return 0;
 
-  const numeros = cadena.split(",");
+  const separadores = /,|-/; 
+  const numeros = cadena.split(separadores);
+
   return sumarArreglo(numeros);
 }
