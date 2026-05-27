@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "486a7352e14b5f9b9e6c282060c613a29499aa62",
     "author": "CamiloPadillaVillazon",
     "commit": {
       "date": "2026-05-27T02:06:36.000Z",
       "message": "mezclar el delimitador personalizado con comas y guiones",
-      "url": "https://github.com/CamiloPadillaVillazon/-StringCalculator/commit/HEAD"
+      "url": "https://github.com/CamiloPadillaVillazon/-StringCalculator/commit/486a7352e14b5f9b9e6c282060c613a29499aa62"
     },
     "stats": {
       "total": 13,
@@ -129,6 +129,25 @@
     },
     "coverage": 100,
     "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "CamiloPadillaVillazon",
+    "commit": {
+      "date": "2026-05-27T02:10:39.000Z",
+      "message": "ignorar numeros mayores a mil",
+      "url": "https://github.com/CamiloPadillaVillazon/-StringCalculator/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 11,
+      "deletions": 4,
+      "date": "2026-05-27"
+    },
+    "coverage": 100,
+    "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
   }

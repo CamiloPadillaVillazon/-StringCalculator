@@ -28,7 +28,11 @@ describe("Calculadora de Cadenas", () => {
   it("deberia mezclar el delimitador personalizado con comas y guiones", () => {
     expect(calculadoraCadenas("//[;] 6,3-2;1")).toEqual(12);
   });
-  
+
+  it("deberia ignorar los numeros mayores a 1000", () => {
+    expect(calculadoraCadenas("2,1001")).toEqual(2);
+  });
+
 });
 
 
