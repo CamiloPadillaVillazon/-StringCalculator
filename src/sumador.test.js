@@ -20,6 +20,10 @@ describe("Calculadora de Cadenas", () => {
   it("deberia permitir el guion como separador alternativo", () => {
     expect(calculadoraCadenas("1-2,3")).toEqual(6);
   });
+
+  it("deberia aceptar un delimitador personalizado simple", () => {
+    expect(calculadoraCadenas("//[;] 6;7;4")).toEqual(17);
+  });
 });
 
 

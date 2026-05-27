@@ -168,9 +168,39 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "306f79305a9ea2c8ad87fb12b11001d321873222",
     "commitName": "guion como separador",
     "commitTimestamp": 1779847119844,
     "testId": 4
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 1,
+    "numTotalTests": 6,
+    "timestamp": 1779847227966,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1779847281290,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1779847385887,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Delimitador personalizado",
+    "commitTimestamp": 1779847412599,
+    "testId": 5
   }
 ]
