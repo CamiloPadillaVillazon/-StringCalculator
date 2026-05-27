@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "CamiloPadillaVillazon",
+    "commit": {
+      "date": "2026-05-27T01:11:11.000Z",
+      "message": "Cadena vacia",
+      "url": "https://github.com/CamiloPadillaVillazon/-StringCalculator/commit/HEAD"
+    },
+    "stats": {
+      "total": 22,
+      "additions": 14,
+      "deletions": 8,
+      "date": "2026-05-27"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
