@@ -70,9 +70,47 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7c3f7615c2951c3387799b545f41cb220e1c9e05",
     "commitName": "Retorna mismo numero",
     "commitTimestamp": 1779844879063,
     "testId": 1
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1779845638536,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1779846359800,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1779846370657,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1779846430210,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Retorna suma de 2 numeros separados por coma",
+    "commitTimestamp": 1779846460866,
+    "testId": 2
   }
 ]
